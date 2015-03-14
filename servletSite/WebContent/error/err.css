@@ -1,0 +1,105 @@
+* {
+	margin: 0px; padding: 0px;
+}
+body {
+	background: url("http://static.naver.com/w8/err/bg_body.gif") repeat-x; font: 12px/1.7em ±¼¸², Gulim, AppleGothic, sans-serif; text-align: center; color: rgb(68, 68, 68); font-size-adjust: none; font-stretch: normal;
+}
+img {
+	border: currentColor;
+}
+fieldset {
+	border: currentColor;
+}
+a {
+	color: rgb(67, 138, 1); text-decoration: underline;
+}
+legend {
+	display: none;
+}
+#wrap {
+	background: url("http://static.naver.com/w8/err/bg_naver.gif") no-repeat 100% 109px; margin: 0px auto; width: 560px; text-align: left; min-height: 618px; _height: 618px;
+}
+#header {
+	height: 80px; overflow: hidden; position: relative;
+}
+#header h1 {
+	margin: 36px 0px 0px 26px;
+}
+#header .menu {
+	top: 23px; width: 100%; text-align: right; right: 28px; color: rgb(215, 215, 215); letter-spacing: -1px; overflow: hidden; font-family: µ¸¿ò,Dotum; position: absolute;
+}
+#header .menu a {
+	margin: 0px 3px; color: rgb(68, 68, 68); text-decoration: none;
+}
+#header .menu a:hover {
+	text-decoration: underline;
+}
+#container {
+	padding: 33px 20px 0px 81px;
+}
+#container h2 {
+	font: bold 14px/1.6em µ¸¿ò, Dotum; letter-spacing: -1px; margin-bottom: 24px; font-size-adjust: none; font-stretch: normal;
+}
+#container .content p {
+	margin-bottom: 10px;
+}
+.search {
+	margin-top: 30px;
+}
+.window02 {
+	margin-bottom: 0px;
+}
+.box_window {
+	font: bold 15px/1.5em µ¸¿ò, Dotum; margin: 0px 3px 11px 1px; padding: 1px 3px 0px 6px; border: 5px solid rgb(75, 163, 0); width: 320px; height: 22px; vertical-align: 4px; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); _height: 32px;
+}
+* + html .box_window {
+	vertical-align: 4px;
+}
+.btn_window {
+	vertical-align: top; _vertical-align: top;
+}
+.sch_desc {
+	width: 391px; text-align: center;
+}
+.sch_link {
+	width: 391px; text-align: center; color: rgb(222, 222, 222); margin-left: -1px;
+}
+.sch_link a {
+	margin: 0px 3px; color: rgb(68, 68, 68); text-decoration: none;
+}
+.sch_link a:hover {
+	text-decoration: underline;
+}
+#footer {
+	text-align: center; margin-top: 80px;
+}
+#footer a {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+#footer a:visited {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+#footer a:hover {
+	text-decoration: underline;
+}
+#footer address {
+	font: 9px/14px Verdana; font-size-adjust: none; font-stretch: normal;
+}
+#footer address img {
+	vertical-align: middle;
+}
+#footer address a {
+	font: bold 9px/normal Tahoma; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+#footer address a:hover {
+	color: rgb(0, 155, 200);
+}
+#footer address span {
+	font: 9px/14px Verdana; padding-left: 2px; font-size-adjust: none; font-stretch: normal;
+}
+#footer address em {
+	font: 9px/normal verdana; padding-left: 6px; font-size-adjust: none; font-stretch: normal;
+}
+#footer address .logo {
+	vertical-align: top; display: inline-block;
+}

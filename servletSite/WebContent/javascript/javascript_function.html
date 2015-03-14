@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function test1(){
+		//window.document.forms[0].elements[0].value="guest";
+		window.document.loginForm.id.value="guest";	
+		window.document.loginForm.pass.value="guest";	
+		window.document.loginForm.id.focus();
+		
+	}
+	function test2(){
+		var id=window.document.loginForm.id.value;
+		var pass=window.document.loginForm.pass.value;	
+		alert(id+","+pass);
+		window.document.loginForm.id.value="";	
+		window.document.loginForm.pass.value="";	
+	}
+	function test3(){
+		var id=window.document.loginForm.id.value;
+		var pass=window.document.loginForm.pass.value;	
+		if(id==""){
+			alert("아이디 입력하세용!!!");
+			window.document.loginForm.id.focus();
+			return;
+		}
+		if(pass==""){
+			alert("패에쓰 입력하세용!!!");
+			window.document.loginForm.pass.focus();
+			return;
+		}
+		
+		if(id.length >= 4){
+			alert("id는 4글자이하여야합니다.")
+			window.document.loginForm.id.focus();
+			return;
+		}
+		alert("서버로 폼안에있는 데이타를전송하면서 요청......");
+		window.document.loginForm.submit();
+	}
+	function formCheck(){
+		var id=window.document.loginForm.id.value;
+		var pass=window.document.loginForm.pass.value;	
+		if(id==""){
+			alert("아이디 입력하세용!!!");
+			window.document.loginForm.id.focus();
+			return false;
+		}
+		if(pass==""){
+			alert("패에쓰 입력하세용!!!");
+			window.document.loginForm.pass.focus();
+			return false;
+		}
+		
+		if(id.length >= 4){
+			alert("id는 4글자이하여야합니다.")
+			window.document.loginForm.id.focus();
+			return false;
+		}
+		return true;
+	}
+	function test4(){
+		alert("test4 실행");
+	}
+	
+</script>
+</head>
+<body>
+<h1>javascript function</h1>
+<hr/>
+<form name="loginForm" action="xxxx" method="get" onsubmit="return formCheck();">
+	아이디:<input type="text" name="id"><br/>
+	패에쓰:<input type="password" name="pass"><br/>
+	<input type="submit" value="로그인">
+	<input type="reset" value="치이소">
+</form>	
+<hr/>
+<br/>
+<script type="text/javascript">
+	window.alert("test1 function실행");
+	test1();
+</script>
+<input type="button" value="test2 function실행" onclick="test2();"> 
+<input type="button" value="test3 function실행" onclick="test3();"> 
+<a href="javascript:test4();">test4 function실행</a>
+</body>
+</html>
+
+
+
+
+
+
+
+

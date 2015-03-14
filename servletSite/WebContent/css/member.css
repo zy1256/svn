@@ -1,0 +1,5 @@
+@CHARSET "EUC-KR";
+
+form{background-color:#FFFF00;}
+.TXTFLD{font-size:9pt; color:#0000FF; border:1px solid #0000FF;}
+.TXTFLD1{font-size:9pt; color:#FF0000; border:1px dotted #FF0000;}
